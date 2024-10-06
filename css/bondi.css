@@ -1,0 +1,218 @@
+/* font-family: $noto-black;
+      font-family: $noto-bold;
+      font-family: $noto-medum;
+      font-family: $noto-regular;
+      font-family: $noto-semiBold;*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Noto-regular";
+  src: url("/webfonts/NotoSansArabic-Regular.ttf");
+}
+@font-face {
+  font-family: "Noto-medum";
+  src: url("/webfonts/NotoSansArabic-Medium.ttf");
+}
+@font-face {
+  font-family: "Noto-semiBold";
+  src: url("/webfonts/NotoSansArabic-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Noto-bold";
+  src: url("/webfonts/NotoSansArabic-Bold.ttf");
+}
+@font-face {
+  font-family: "Noto-black";
+  src: url("/webfonts/NotoSansArabic-Black.ttf");
+}
+/*Spitial width*/
+@media (max-width: 487px) {
+  .fBottons {
+    flex-wrap: wrap;
+  }
+}
+/* Small
+@media (min-width: 768px) {
+
+} */
+/* Medium */
+/* Large */
+body {
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body .row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+body .firstPage {
+  margin: auto;
+  background-image: url("/img/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .firstPage .navbar {
+  background-color: rgba(0, 0, 0, 0.1);
+  --bs-bg-opacity: 1;
+  font-family: "Noto-regular";
+}
+body .firstPage .navbar .navbar-nav .nav-link.active, body .firstPage .navbar .navbar-nav .nav-link:hover, body .firstPage .navbar .navbar-nav .nav-link:focus {
+  color: #ddfd36;
+}
+body .firstPage .landing {
+  color: #f8f9fa;
+  min-height: calc(100vh - 58px);
+}
+body .firstPage .landing h1 {
+  font-family: "Noto-black";
+}
+body .firstPage .landing p {
+  font-family: "Noto-regular";
+}
+body .firstPage .landing .btn-success {
+  background-color: #ddfd36;
+  font-family: "Noto-regular";
+  height: 50px;
+  width: 200px;
+}
+body .firstPage .landing .btn-light {
+  font-family: "Noto-regular";
+  height: 50px;
+  width: 200px;
+}
+body .firstPage .landing .btn-light:hover {
+  background-color: #ddfd36;
+  font-family: "Noto-regular";
+}
+body .secoundPage {
+  background-color: #ffffff;
+}
+body .secoundPage h3 {
+  font-family: "Noto-semiBold";
+  font-size: 20px;
+  margin-right: 1.6rem;
+}
+body .secoundPage .wordsInSec2 {
+  height: 330.73px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-right: 0.6rem;
+}
+body .secoundPage .wordsInSec2 h1 {
+  margin-top: 51px;
+  font-family: "Noto-black";
+}
+body .secoundPage .wordsInSec2 h1 span {
+  color: rgb(192, 219, 51);
+}
+body .secoundPage .wordsInSec2 p {
+  font-family: "Noto-medum";
+  font-family: "Noto-semiBold";
+  font-size: 20px;
+  margin-right: 1.6rem;
+}
+body .secoundPage .limited-img {
+  width: 100%;
+  height: auto;
+}
+body .secoundPage .item img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .therdPage .bl2 {
+  height: 150px;
+  background-color: black;
+}
+body .therdPage .wigh2 {
+  height: 30px;
+  background-color: white;
+}
+body .therdPage .contaner {
+  margin-top: 40px;
+  gap: 30px;
+  height: 450px;
+  width: auto;
+}
+body .therdPage .textPage {
+  font-family: "Noto-bold";
+}
+body .therdPage .textPage span {
+  color: #ddfd36;
+  text-decoration: underline;
+}
+body .therdPage .fBottons2 {
+  height: 200px;
+}
+body .therdPage .fBottons2 .btn-success {
+  background-color: #ddfd36;
+  font-family: "Noto-regular";
+  height: 50px;
+  width: 200px;
+}
+body .therdPage .fBottons2 .btn-light {
+  font-family: "Noto-regular";
+  height: 50px;
+  width: 200px;
+}
+body .therdPage .fBottons2 .btn-light:hover {
+  background-color: #ddfd36;
+  font-family: "Noto-regular";
+}
+body .therdPage .container2 P {
+  margin: 28px auto 32px auto;
+  width: 382px;
+}
+body .therdPage .container2 .imgPage3 img {
+  height: auto;
+  width: 547px;
+}
+body .therdPage .container2 .textPage3 h2 {
+  font-family: "Noto-bold";
+}
+body .fourthPage .fBottons2 .btn-end {
+  background-color: white;
+  font-family: "Noto-bold";
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  border: solid 1px;
+}
+body .fourthPage .fBottons2 .btn-end:hover {
+  background-color: #ddfd36;
+  font-family: "Noto-black";
+}
+body .fourthPage .ptext {
+  width: 486px;
+  margin: 0px auto 30px auto;
+}
+body .fourthPage .row {
+  height: auto;
+  margin-top: 45px;
+}
+body .fourthPage .row .container3 {
+  height: auto;
+}
+body .fourthPage .row .container3 .img1 {
+  display: flex;
+  text-align: center;
+}
+body .fourthPage .row .container3 .img1 p {
+  font-family: "Noto-semiBold";
+}
+body .fourthPage .row .h1style {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 32px;
+  font-family: "Noto-black";
+}/*# sourceMappingURL=bondi.css.map */
