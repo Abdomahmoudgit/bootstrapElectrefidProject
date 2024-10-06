@@ -52,7 +52,7 @@ body .row {
 }
 body .firstPage {
   margin: auto;
-  background-image: url("/img/hero.jpg");
+  background-image: url("../img/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -61,7 +61,9 @@ body .firstPage .navbar {
   --bs-bg-opacity: 1;
   font-family: "Noto-regular";
 }
-body .firstPage .navbar .navbar-nav .nav-link.active, body .firstPage .navbar .navbar-nav .nav-link:hover, body .firstPage .navbar .navbar-nav .nav-link:focus {
+body .firstPage .navbar .navbar-nav .nav-link.active,
+body .firstPage .navbar .navbar-nav .nav-link:hover,
+body .firstPage .navbar .navbar-nav .nav-link:focus {
   color: #ddfd36;
 }
 body .firstPage .landing {
@@ -125,7 +127,7 @@ body .secoundPage .item img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 body .therdPage .bl2 {
   height: 150px;
@@ -215,4 +217,4 @@ body .fourthPage .row .h1style {
   height: 200px;
   font-size: 32px;
   font-family: "Noto-black";
-}/*# sourceMappingURL=bondi.css.map */
+} /*# sourceMappingURL=bondi.css.map */
